@@ -57,3 +57,12 @@ html, body {
   padding: 40px;
 }
 
+.overlay_close {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  font-size: 32px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
