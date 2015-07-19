@@ -11,5 +11,8 @@
   "license": "ISC",
   "devDependencies": {
     "http-server": "^0.8.0"
+  },
+  "dependencies": {
+    "codemirror": "^5.4.0"
   }
 }
