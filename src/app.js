@@ -14,6 +14,24 @@
   });
 
   deployBtn.addEventListener('click', function() {
-    console.log('deploy');
+    upload(editor.getValue());
   });
+
+  function upload(contents) {
+    var formData = new FormData();
+    var blob = new Blob([contents], { type: "text/html"});
+    formData.append('webpage', blob);
+
+    fetch('http://localhost:3000/upload', {
+        method: 'POST',
+        body: formData
+    })
+    .then(function(response) {
+      return response.json();
+    })
+    .then(function(data) {
+      console.log(data);
+    });
+  }
+
 }());
