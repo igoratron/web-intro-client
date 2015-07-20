@@ -10,9 +10,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "browserify": "^11.0.0",
+    "codemirror": "^5.4.0",
     "http-server": "^0.8.0"
-  },
-  "dependencies": {
-    "codemirror": "^5.4.0"
   }
 }
