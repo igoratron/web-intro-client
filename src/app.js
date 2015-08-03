@@ -19,6 +19,8 @@ var editor = CodeMirror.fromTextArea(placeholder, {
     mode: {
       name: 'htmlmixed'
     },
+    theme: 'solarized dark',
+    tabSize: 2,
     lineNumbers: true
 });
 
