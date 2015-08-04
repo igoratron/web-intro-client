@@ -4,15 +4,22 @@
     <meta charset="utf-8">
     <title>Introduction to Web development</title>
     <link rel="stylesheet" href="dist/codemirror.css">
+    <link rel="stylesheet" href="dist/solarized.css">
     <link rel="stylesheet" href="src/style.css">
   </head>
-  <body class="editor container">
-    <div class="column">
-      <textarea class="js-editor editor"></textarea>
-    </div>
-    <div class="column">
-      <iframe class="js-display display"></iframe>
+  <body>
+    <div class="title">
+      <h1>Write your HTML here</h1>
+      <span>Preview your file here</span>
       <button type="button" class="js-deploy deploy-btn">Publish</button>
+    </div>
+    <div class="editor container">
+      <div class="column">
+        <textarea class="js-editor editor"></textarea>
+      </div>
+      <div class="column">
+        <iframe class="js-display display"></iframe>
+      </div>
     </div>
     <script src="dist/built.js"></script>
   </body>
