@@ -79,3 +79,36 @@ h1 {
   background: #2bbbad;
   box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
 }
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.5);
+  z-index: 3;
+}
+
+.overlay_wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -80px;
+  margin-left: -175px;
+  width: 350px;
+  height: 160px;
+  border: 1px solid;
+  background: white;
+  padding: 40px;
+}
+
+.overlay_close {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  font-size: 32px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
